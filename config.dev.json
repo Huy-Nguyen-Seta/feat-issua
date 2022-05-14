@@ -1,0 +1,27 @@
+{
+  "env": "dev",
+  "sqlDB": {
+    "user": "postgres",
+    "host": "localhost",
+    "database": "timesheet",
+    "password": "123456"
+  },
+  "secret": "timesheet",
+  "serverURL": "http://localhost:3001",
+  "engineURL": "http://localhost:8000",
+  "s3": {
+    "accessKey": "AKIAVITPY2U4VCCIAVXZ",
+    "secretKey": "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",
+    "bucket": "setaint",
+    "region": "us-west-1",
+    "signedUrlExpireSeconds": 300000
+  },
+  "mailServer": {
+    "email": "timesheet_seta@seta-international.vn",
+    "mailServerUrl": "https://mail.seta-international.vn:25"
+  },
+  "rowPerPage": 10,
+  "policies": {
+    "maxLeaveCarryOver": 3
+  }
+}

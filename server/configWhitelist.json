@@ -1,0 +1,8 @@
+[
+  "apiRoot",
+  "switchAppRoute",
+  "apiRoute",
+  "socketServer",
+  "serverURL",
+  "rowPerPage"
+]

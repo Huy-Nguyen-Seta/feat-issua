@@ -1,0 +1,15 @@
+# Common Ignores
+Dockerfile
+*.md
+.gitignore
+.pullapprove.yml
+.vscode
+.git
+
+# Basic Node Ignores
+node_modules
+server/node_modules
+build
+newrelic_agent.log
+coverage
+npm-debug.log

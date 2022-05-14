@@ -1,0 +1,42 @@
+.container-form-global {
+  width: 100%;
+}
+.input-form-global {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.54);
+}
+.selected-flag {
+  border-right: 1px solid rgba(0, 0, 0, 0.54);
+}
+a {
+  color: #1e75ff;
+  text-decoration-line: none;
+}
+body,
+html {
+  height: 100%;
+  font-family: Nunito;
+  font-style: normal;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+#root {
+  min-height: 100vh;
+  position: relative;
+  height: 100vh;
+}

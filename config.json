@@ -1,0 +1,30 @@
+{
+  "env": "dev",
+  "sqlDB": {
+    "user": "qxghmmineooydj",
+    "host": "ec2-23-20-224-166.compute-1.amazonaws.com",
+    "database": "ddcn991c5redk8",
+    "password": "4d55519ba0652c4ddac1951d48fc6c76563da95245c1de17793d7cb5339783df",
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  },
+  "secret": "timesheet",
+  "serverURL": "http://localhost:3001",
+  "engineURL": "http://54.151.164.15:8000",
+  "s3": {
+    "accessKey": "AKIAVITPY2U4VCCIAVXZ",
+    "secretKey": "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",
+    "bucket": "seta-timesheet",
+    "region": "us-west-1",
+    "signedUrlExpireSeconds": 300000
+  },
+  "mailServer": {
+    "email": "timesheet_seta@seta-international.vn",
+    "mailServerUrl": "https://mail.seta-international.vn:25"
+  },
+  "rowPerPage": 15,
+  "policies": {
+    "maxLeaveCarryOver": 3
+  }
+}
