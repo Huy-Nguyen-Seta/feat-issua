@@ -68,7 +68,7 @@ function DrawerSubcomponent({
       <List component="div" disablePadding>
         <ListItem
           className={classes.eachItemSideBar}
-          style={{ backgroundColor: openSubItem || subItemList.filter((item) => highlighting(item) === true).length > 0 ? '#42bcf5' : '' }}
+          style={{ backgroundColor: openSubItem || subItemList.filter((item) => highlighting(item) === true).length > 0 ? '#3651d4' : '' }}
           aria-owns={hoverSubIcon ? 'mouse-over-popover' : undefined}
           aria-haspopup="true"
         >

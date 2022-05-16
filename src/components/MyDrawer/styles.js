@@ -4,7 +4,7 @@ export const styles = (theme) => (
   {
     root: {
       display: 'flex',
-      backgroundColor: '#00000'
+      backgroundColor: '#3c8dbc'
     },
     HoverButton: {
       backgroundColor: '#00CED1',
@@ -76,15 +76,16 @@ export const styles = (theme) => (
     },
     listSidebar: {
       height: '100%',
-      backgroundColor: '#ffffff',
-      paddingTop: 10
+      backgroundColor: '#3d5af1',
+      paddingTop: 10,
+      color: '#cfcde7'
     },
     darkblue: {
-      color: '#18191b',
+      color: '#cfcde7',
       minWidth: 40
     },
     sidbarPrimary: {
-      color: theme.palette.primary.main,
+      color: '#cfcde7',
       // fontWeight: 600
     },
     nested: {
